@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First-name:</strong>
+  <%= @entry.first-name %>
+</p>
+
+<p>
+  <strong>Second-name:</strong>
+  <%= @entry.second-name %>
+</p>
+
+<p>
+  <strong>Sir-name:</strong>
+  <%= @entry.sir-name %>
+</p>
+
+<p>
+  <strong>Alias:</strong>
+  <%= @entry.alias %>
+</p>
+
+<p>
+  <strong>Date-of-birth:</strong>
+  <%= @entry.date-of-birth %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @entry.address %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @entry.height %>
+</p>
+
+<p>
+  <strong>Marks-or-tattoos:</strong>
+  <%= @entry.marks-or-tattoos %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
