@@ -2,17 +2,17 @@
 
 <p>
   <strong>First-name:</strong>
-  <%= @entry.first-name %>
+  <%= @entry.firstname %>
 </p>
 
 <p>
   <strong>Second-name:</strong>
-  <%= @entry.second-name %>
+  <%= @entry.secondname %>
 </p>
 
 <p>
   <strong>Sir-name:</strong>
-  <%= @entry.sir-name %>
+  <%= @entry.sirname %>
 </p>
 
 <p>
@@ -22,7 +22,7 @@
 
 <p>
   <strong>Date-of-birth:</strong>
-  <%= @entry.date-of-birth %>
+  <%= @entry.dateofbirth %>
 </p>
 
 <p>
@@ -35,10 +35,6 @@
   <%= @entry.height %>
 </p>
 
-<p>
-  <strong>Marks-or-tattoos:</strong>
-  <%= @entry.marks-or-tattoos %>
-</p>
 
 <%= link_to 'Edit', edit_entry_path(@entry) %> |
 <%= link_to 'Back', entries_path %>

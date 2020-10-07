@@ -8,7 +8,6 @@ class CreateEntries < ActiveRecord::Migration[6.0]
       t.date :dateofbirth
       t.text :address
       t.integer :height
-      t.string :marksandtattoos
 
       t.timestamps
     end
