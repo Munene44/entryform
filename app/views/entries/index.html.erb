@@ -20,14 +20,14 @@
   <tbody>
     <% @entries.each do |entry| %>
       <tr>
-        <td><%= entry.first-name %></td>
-        <td><%= entry.second-name %></td>
-        <td><%= entry.sir-name %></td>
+        <td><%= entry.firstname %></td>
+        <td><%= entry.secondname %></td>
+        <td><%= entry.sirname %></td>
         <td><%= entry.alias %></td>
-        <td><%= entry.date-of-birth %></td>
+        <td><%= entry.dateofbirth %></td>
         <td><%= entry.address %></td>
         <td><%= entry.height %></td>
-        <td><%= entry.marks-or-tattoos %></td>
+        <td><%= entry.marksortattoos %></td>
         <td><%= link_to 'Show', entry %></td>
         <td><%= link_to 'Edit', edit_entry_path(entry) %></td>
         <td><%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
