@@ -37,7 +37,8 @@
 
 <p>
   <strong>Photo:</strong>
-  <%= @entry.image %>
+<%= image_tag(@entry.image.url, alt: 'Image') if @entry.image? %>
+  
 </p>
 
 
